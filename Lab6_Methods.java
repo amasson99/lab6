@@ -35,13 +35,8 @@ public class Lab6_Methods {
 // ***Your code goes here***
 // If zero wasn't entered above, call the method to calculate how far you
 // can go on the current amount of gas in the tank
-if (gallonsOfGas == 0){
-
-} else {
   milesTraveled = getDistanceToEmpty(MPG, gallonsOfGas);
-  System.out.printf("Miles left on tank = %.1f\n",milesTraveled);
-}
-
+  //System.out.printf("Miles left on tank = %.1f\n",milesTraveled);
 
 // ----------------------- Display Results ------------------------------
 // ***Your code goes here***
@@ -71,7 +66,7 @@ System.out.println("Year: " + year);
 System.out.println("Make: "+ make);
 System.out.println("Model: "+ model);
 System.out.println("MPG: " + MPG);
-System.out.println("Miles left on tank: " + milesTraveled);
+System.out.printf("Miles left on tank = %.1f\n",milesTraveled);
 
 }//end displayOutput
 
