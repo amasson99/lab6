@@ -66,8 +66,9 @@ System.out.println("Year: " + year);
 System.out.println("Make: "+ make);
 System.out.println("Model: "+ model);
 System.out.println("MPG: " + MPG);
+if (milesTraveled > 1){
 System.out.printf("Miles left on tank = %.1f\n",milesTraveled);
-
+}
 }//end displayOutput
 
 
