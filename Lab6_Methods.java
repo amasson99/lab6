@@ -1,9 +1,9 @@
 /*
  * Lab6_Methods.java
  * Original Author: Dr. D. Lang
- * Modified by: (Your name here)
+ * Modified by: Alex Masson
  * Course: CIS 200
- * Lab Section: (Insert your lab section day/time here)
+ * Lab Section: Thursday 4:30-6:30 Section B
 
 */
 
